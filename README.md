@@ -21,7 +21,7 @@ It's a basic system where a manager can create new tickets and a technician can 
 
 **State Management**: Just the basic React Hooks (useState and useEffect).
 
-** How to get it running** 
+**How to get it running** 
 1. **Clone the repo**
    ```bash
    git clone https://github.com/your-username/ticket-app.git
