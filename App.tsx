@@ -28,7 +28,7 @@ type TicketCardProps = {
   onUpdate: (id: string, newStatus: 'Pre-Closed' | 'Closed') => void;
 };
 
-// --- Reusable Ticket Component ---
+
 const TicketCard: React.FC<TicketCardProps> = ({ ticket, role, onUpdate }) => {
   let actionText: string | null = null;
   let newStatus: 'Pre-Closed' | 'Closed' | '' = '';
