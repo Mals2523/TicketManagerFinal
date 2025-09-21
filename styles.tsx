@@ -37,12 +37,12 @@ const styles = StyleSheet.create({
   addButtonText: { color: "#fff", fontWeight: "bold" },
   sectionTitle: { fontSize: 18, fontWeight: "bold", marginVertical: 10 },
   ticketCard: {
-    backgroundColor: "#f9f9f9",
+    backgroundColor: "#c78f8fff",
     padding: 15,
     borderRadius: 8,
     marginBottom: 10,
-    borderWidth: 1,
-    borderColor: "#eee",
+    borderWidth: 2,
+    borderColor: "#eb1b1bff",
   },
   ticketHeader: {
     flexDirection: "row",
@@ -50,15 +50,19 @@ const styles = StyleSheet.create({
     marginBottom: 2,
   },
   ticketTitle: { fontSize: 16, fontWeight: "bold" },
-  ticketStatus: { fontSize: 14, color: "#2B6CB0" },
-  ticketDescription: { fontSize: 14, color: "#555", marginBottom: 10 },
+  ticketStatus: { fontSize: 15, color: "#0a0a0aff",fontWeight: "bold" },
+  ticketDescription: { fontSize: 14, color: "#3a3a3aff", marginBottom: 10 },
   actionButton: {
-    backgroundColor: "#2B6CB0",
-    padding: 15,
+    backgroundColor: "#6caff7ff",
+    
     borderRadius: 8,
     alignItems: "center",
+    marginTop: 5,
+    paddingHorizontal: 10,
+    paddingVertical: 3,
+
   },
-  actionButtonText: { color: "#fff", fontWeight: "bold" },
+  actionButtonText: { color: "#030303ff", fontWeight: "bold" },
 });
 
 
